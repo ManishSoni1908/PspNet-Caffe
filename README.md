@@ -16,8 +16,10 @@ This repo attempts to reproduce this amazing work by Hengshuang Zhao  :
 
 
 ## How To
+
    ```shell
-   1. Firt clone the 
+   1. Firt clone the repository 
+   - $ git clone https://github.com/ManishSoni1908/PspNet-Caffe.git
    2. Go to `./caffe-pspnet` folder, make `build`folder and run cmake ..  and then make - j[Number of cores].
    3. Go to `./pspnet_test` folder, open CMakeLists.txt and mention caffe build path.
    4. Go to `./pspnet_test` folder make build folder and run
@@ -28,18 +30,23 @@ This repo attempts to reproduce this amazing work by Hengshuang Zhao  :
 
 
 ## For Training
-1. Go to `./utils/prototxt_training/solver_PSP.prototxt` Mention the network prototxt, snapshot path and max_iteration.
-2. Go to `./utils/prototxt_training/original_pspnet.prototxt` Mention the NumClasses in `conv6_apc17` and `conv6_1_apc17` layer.
-3. Go to `./caffe-pspnet/build/tools` Run command 
-  - $ ./caffe train -gpu all -solver `[Path to solver.prototxt]` -weights`[path to pre-tarined model]`
+   
+   ```shell
+   1. Go to `./utils/prototxt_training/solver_PSP.prototxt` Mention the network prototxt, snapshot path and max_iteration.
+   2. Go to `./utils/prototxt_training/original_pspnet.prototxt` Mention the NumClasses in `conv6_apc17` and `conv6_1_apc17` layer.
+   3. Go to `./caffe-pspnet/build/tools` Run command 
+   - $ ./caffe train -gpu all -solver `[Path to solver.prototxt]` -weights`[path to pre-tarined model]`
+   ```
 
 
 
 ## For Testing
-1. Go to `./pspnet_test/build` Run command 
-  - $ ./test `[path of testing prototxt]` `[path of trained model]` `[path of test image directory]`
-2. All done
 
+   ```shell
+   1. Go to `./pspnet_test/build` Run command 
+   - $ ./test `[path of testing prototxt]` `[path of trained model]` `[path of test image directory]`
+   2. All done
+   ```
 
 
 ##Results
