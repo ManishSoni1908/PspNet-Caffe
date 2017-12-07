@@ -37,4 +37,10 @@ This repo attempts to reproduce this amazing work by Hengshuang Zhao  :
   - $ ./test `[path of testing prototxt]` `[path of trained model]` `[path of test image directory]`
 2. All done
 
+
+
+##Results
+![alt text](https://github.com/ManishSoni1908/PspNet-Caffe/results/img_0.png)
+![alt text](https://github.com/ManishSoni1908/PspNet-Caffe/results/seg_0.png)
+
  
