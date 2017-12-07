@@ -10,16 +10,18 @@ This repo attempts to reproduce this amazing work by Hengshuang Zhao  :
 
 ## Requirements
 
-- [Cuda-8.0 (>= 1.0.0)]
+- [Cuda-8.0]
 - [Opencv-3.1.0]
-
+- [Minimum 8Gb Gpu RAM]
 
 ## Downloads
 
    ```shell
-   - Download original Pspnet trained models and put them in folder pre_trained_model:
+   - Download original Pspnet trained models and put them in folder pre_trained_model
+     $cd PspNet-Caffe_Root
      $wget https://drive.google.com/file/d/0BzaU285cX7TCN1R3QnUwQ0hoMTA/view
    - Download Pspnet model trained on Amazon robotics Challenge dataset
+     $cd PspNet-Caffe_Root
      $wget https://drive.google.com/file/d/0BzaU285cX7TCN1R3QnUwQ0hoMTA/view
    ```
      
@@ -30,7 +32,7 @@ This repo attempts to reproduce this amazing work by Hengshuang Zhao  :
 
    ```shell
    1. Firt clone the repository 
-   - $git clone https://github.com/ManishSoni1908/PspNet-Caffe.git
+   -  $git clone https://github.com/ManishSoni1908/PspNet-Caffe.git
    2. Go to  ./caffe-pspnet  folder, make build folder and run cmake ..  and then make - j[Number of cores].
    3. Go to  ./pspnet_test  folder, open CMakeLists.txt and mention caffe build path.
    4. Go to  ./pspnet_test  folder make build folder and run
@@ -40,7 +42,7 @@ This repo attempts to reproduce this amazing work by Hengshuang Zhao  :
 
 
 
-## For Training
+## Training
    
    ```shell
    1. Go to  ./utils/prototxt_training/solver_PSP.prototxt  Mention the network prototxt, snapshot path and max_iteration.
@@ -51,7 +53,7 @@ This repo attempts to reproduce this amazing work by Hengshuang Zhao  :
 
 
 
-## For Testing
+## Testing
 
    ```shell
    1. Go to `./pspnet_test/build` Run command 
