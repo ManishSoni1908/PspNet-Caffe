@@ -41,7 +41,7 @@ This repo attempts to reproduce this amazing work by Hengshuang Zhao  :
 
 ##Results
 
-1. ![Original Image](https://github.com/ManishSoni1908/PspNet-Caffe/blob/master/results/img_0.png)
-2. ![Segmented output](https://github.com/ManishSoni1908/PspNet-Caffe/blob/master/results/seg_0.png)
+![Original Image](https://github.com/ManishSoni1908/PspNet-Caffe/blob/master/results/img_0.png)
+![Segmented output](https://github.com/ManishSoni1908/PspNet-Caffe/blob/master/results/seg_0.png)
 
  
