@@ -15,12 +15,15 @@ This repo attempts to reproduce this amazing work by Hengshuang Zhao  :
 
 
 
-##How To
-1. Go to `./caffe-pspnet` folder, make `build`folder and run cmake ..  and then make - j[Number of cores].
-2. Go to `./pspnet_test` folder, open CMakeLists.txt and mention caffe build path.
-3. Go to `./pspnet_test` folder make build folder and run
- - $ cmake .. 
- - $ make all.
+## How To
+   ```shell
+   1. Firt clone the 
+   2. Go to `./caffe-pspnet` folder, make `build`folder and run cmake ..  and then make - j[Number of cores].
+   3. Go to `./pspnet_test` folder, open CMakeLists.txt and mention caffe build path.
+   4. Go to `./pspnet_test` folder make build folder and run
+   - $ cmake .. 
+   - $ make all.
+   ```
 
 
 
