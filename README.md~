@@ -28,5 +28,6 @@ This repo attempts to reproduce this amazing work by  :
 
 ## For Testing
 1. Go to `./pspnet_test/build` Run command ./test [path of testing prototxt] [path of trained model] [path of test image directory]
+2. All done
 
  
