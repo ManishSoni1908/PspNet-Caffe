@@ -14,14 +14,14 @@ This repo attempts to reproduce this amazing work by Hengshuang Zhao  :
 - [Opencv-3.1.0]
 
 
-## Downloads:
+## Downloads
 
-    ```shell
+   ```shell
    - Download original Pspnet trained models and put them in folder pre_trained_model:
      [GoogleDrive](https://drive.google.com/file/d/0BzaU285cX7TCN1R3QnUwQ0hoMTA/view)
    - Download Pspnet model trained on Amazon robotics Challenge dataset
      [GoogleDrive](https://drive.google.com/file/d/0BzaU285cX7TCN1R3QnUwQ0hoMTA/view)
-    ```
+   ```
      
 
 
