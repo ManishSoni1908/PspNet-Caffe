@@ -40,7 +40,8 @@ This repo attempts to reproduce this amazing work by Hengshuang Zhao  :
 
 
 ##Results
-![alt text](https://github.com/ManishSoni1908/PspNet-Caffe/results/img_0.png)
-![alt text](https://github.com/ManishSoni1908/PspNet-Caffe/results/seg_0.png)
+
+1. ![Original Image](https://github.com/ManishSoni1908/PspNet-Caffe/blob/master/results/img_0.png)
+2. ![Segmented output](https://github.com/ManishSoni1908/PspNet-Caffe/blob/master/results/seg_0.png)
 
  
